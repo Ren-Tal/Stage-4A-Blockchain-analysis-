@@ -1,0 +1,17 @@
+During my queries, I came across some very unusual transactions that consistently had the exact same number of outputs (601). I initially suspected a mixer/CoinJoin, so I decided to investigate further.
+
+When examining the output values, I noticed that they were all set to the minimum dust threshold of 546 satoshis. It turned out to be a recurring dust attack, taking place almost every day, with nearly identical execution times.
+
+**Results of Query 5 (Req5):**
+
+This is probably not a "large-scale dust attack" in the broad sense. Rather, it is a more specific case of dust flooding concentrated on one or two target addresses. This is actually an excellent example of why you should never stop at the first figure that seems to confirm a hypothesis. The high `output_count` initially pointed us in the right direction (dust activity), but checking the number of distinct addresses significantly refined — and changed — the conclusion.
+
+The raw pattern (a large number of outputs) is never sufficient to identify a behavior. Multiple features must be cross-referenced (in this case: output count, distinct addresses, and output value) to distinguish between different hypotheses. This is exactly the principle behind the upcoming **Feature Engineering** module.
+
+**Results of Query 6 (Req6):**
+
+**Main takeaway from this Phase 3 exploration:**
+
+We successfully identified and tested a genuine change-clustering heuristic using real-world data, with a measured applicability rate of approximately **87%**.
+
+This directly corresponds to the **"H1 Clustering and Change Address Clustering"** module in the syllabus. H1 heuristics are precisely this type of statistical rule: they do not provide 100% certainty, but they offer a strong enough signal to be useful at scale.

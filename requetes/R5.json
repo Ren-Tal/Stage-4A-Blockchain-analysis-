@@ -1,0 +1,51 @@
+[{
+  "hash": "eaa1bc4a2eb26ec8adbd88bf6865c7d4e4ab67c753087369afb1a46875f362a8",
+  "block_timestamp": "2026-09-02 06:34:02.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "591"
+}, {
+  "hash": "3ba8850d34a2775f60aa8e8dad689f42dcc74b1c57b58cf9912f54fb4a83c770",
+  "block_timestamp": "2026-09-02 08:15:13.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "593"
+}, {
+  "hash": "b1d618c2baf85fade59e6f1cf12ff188f09c9e9e3e327f9fb11e87dd37e88e18",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "590"
+}, {
+  "hash": "860c0064a43d58916b273ca7f963b5e76e61ed6067c4d1ac6af2cfcf094f0f37",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "592"
+}, {
+  "hash": "cfd385e748bc949097bae5fd5aaabfeab3a0227be415daea978a09009ed53c97",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "589"
+}, {
+  "hash": "143129a549a6599e9ee3cab6d2153d6aa8e2694c1175d9f1673e6503c73c5953",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "593"
+}, {
+  "hash": "a35e26bd400a37785c41cf83d44b1f06f5a753b38c1cf78a29b4eae7d6538094",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "594"
+}, {
+  "hash": "8c54be421427e55e97efe18dace71a809e22d3b9c8c61771cf7e5ed9bfc63fb5",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "593"
+}, {
+  "hash": "58441ba600958a99113d461fa5d182e605f62984c30f581c920c9175b8a7ef8a",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "596"
+}, {
+  "hash": "bf758e9fbe512a3c27cf026c6ec36dc3305af39a4aa54c638780f82b29f7b404",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "distinct_addresses_targeted": "2",
+  "nb_dust_outputs": "593"
+}]

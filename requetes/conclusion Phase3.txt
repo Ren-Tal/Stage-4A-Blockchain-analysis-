@@ -1,0 +1,21 @@
+# Phase 3 Exploration Summary — BigQuery Crypto Public Datasets
+
+**Context:** Exploration of the `bigquery-public-data.crypto_bitcoin.transactions` dataset (September 2026) to identify behavioral patterns that could be leveraged for blockchain analysis.
+
+**1. Detection of Atypical Structures (High Input/Output Counts)**
+
+Filtered transactions with `input_count > 10` and `output_count > 10` to identify potential CoinJoin/mixer candidates. Identified several transactions containing approximately 600–1,150 outputs.
+
+**2. Analysis of Output Value Distribution**
+
+In one candidate transaction (601 outputs), 591 outputs were found to have an identical value of **0.00000546 BTC**, corresponding to Bitcoin's standard technical dust threshold. The initial CoinJoin hypothesis was ruled out based on this characteristic value pattern.
+
+**3. Verification of the Number of Distinct Target Addresses**
+
+Despite the presence of 591 dust outputs, only **2 distinct addresses** were actually targeted. The refined conclusion is that this pattern is more consistent with UTXO flooding concentrated on one or two addresses than with a large-scale deanonymization dust attack. This demonstrates why a single indicator (such as the number of outputs) is never sufficient to draw reliable conclusions. Multiple features must be cross-referenced to reach a sound assessment, foreshadowing the Feature Engineering module.
+
+**4. Testing the Change Address Clustering Heuristic**
+
+For simple transactions (1 input, 2 outputs) during the selected month, compared the script types (`type`) of the two outputs. Approximately **87% of transactions (9,082,528 out of 10,485,726)** had different script types between their two outputs. This suggests that the heuristic *"different script types = one of the outputs is likely to be the change address"* applies to a large majority of cases. This represents a strong statistical signal, consistent with the H1/Change Address Clustering module in the syllabus.
+
+**Practical Skills Acquired:** Writing SQL queries in BigQuery (aggregation, `UNNEST` on nested structures, `CASE WHEN` statements), understanding and navigating table schemas, and managing data scan volumes through monthly partition filtering.

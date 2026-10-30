@@ -1,0 +1,7 @@
+[{
+  "script_comparison": "different_type",
+  "nb_transactions": "9082528"
+}, {
+  "script_comparison": "same_type",
+  "nb_transactions": "1403198"
+}]

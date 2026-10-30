@@ -1,0 +1,121 @@
+[{
+  "hash": "38645affe595e2c6a13ab9e37c1e9722b7f40d0164c7e21cbd0399dece1fa701",
+  "block_timestamp": "2026-09-19 07:41:13.000000 UTC",
+  "input_count": "446",
+  "output_count": "890",
+  "fee": "70645"
+}, {
+  "hash": "f2e248dd5a6f92c7bdb52079a1299923e9f83e476f8a32f1115c713435f998bc",
+  "block_timestamp": "2026-09-01 06:56:36.000000 UTC",
+  "input_count": "643",
+  "output_count": "832",
+  "fee": "36541"
+}, {
+  "hash": "93276775439b19f65dec6ba47aa03b21d9262deee91268cca49d5c1abfba1395",
+  "block_timestamp": "2026-09-12 21:07:58.000000 UTC",
+  "input_count": "245",
+  "output_count": "803",
+  "fee": "48751"
+}, {
+  "hash": "bf758e9fbe512a3c27cf026c6ec36dc3305af39a4aa54c638780f82b29f7b404",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64884"
+}, {
+  "hash": "cfd385e748bc949097bae5fd5aaabfeab3a0227be415daea978a09009ed53c97",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64644"
+}, {
+  "hash": "0d9db8787f602a02eb79d97b3069a927084413d076d067a8d98ff12347599b2a",
+  "block_timestamp": "2026-09-02 10:06:10.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64874"
+}, {
+  "hash": "eaa1bc4a2eb26ec8adbd88bf6865c7d4e4ab67c753087369afb1a46875f362a8",
+  "block_timestamp": "2026-09-02 06:34:02.000000 UTC",
+  "input_count": "601",
+  "output_count": "601",
+  "fee": "64670"
+}, {
+  "hash": "860c0064a43d58916b273ca7f963b5e76e61ed6067c4d1ac6af2cfcf094f0f37",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "input_count": "601",
+  "output_count": "601",
+  "fee": "64550"
+}, {
+  "hash": "3ba8850d34a2775f60aa8e8dad689f42dcc74b1c57b58cf9912f54fb4a83c770",
+  "block_timestamp": "2026-09-02 08:15:13.000000 UTC",
+  "input_count": "601",
+  "output_count": "601",
+  "fee": "64660"
+}, {
+  "hash": "143129a549a6599e9ee3cab6d2153d6aa8e2694c1175d9f1673e6503c73c5953",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "input_count": "603",
+  "output_count": "601",
+  "fee": "64686"
+}, {
+  "hash": "d6e63840de2d4e776cf57251123a3b30bcd4367fcb6b1e64b30c340f45bd0162",
+  "block_timestamp": "2026-09-02 10:06:10.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64844"
+}, {
+  "hash": "b0c706ed4ce2d5eca02af4afe0b684a54e9be867b2969fbb9187ab6e7eb34ca3",
+  "block_timestamp": "2026-09-02 10:51:07.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64494"
+}, {
+  "hash": "098c5870ac162ff68d6f94277a330048a66eecdcfc179e82a3b2d162e665fe7a",
+  "block_timestamp": "2026-09-02 12:00:50.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64794"
+}, {
+  "hash": "b7dfb9335232cd99a940f730c1ca0fba2b3a8ba80150e6d1ed98c71127efbac5",
+  "block_timestamp": "2026-09-02 10:05:51.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64694"
+}, {
+  "hash": "58441ba600958a99113d461fa5d182e605f62984c30f581c920c9175b8a7ef8a",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64754"
+}, {
+  "hash": "b1d618c2baf85fade59e6f1cf12ff188f09c9e9e3e327f9fb11e87dd37e88e18",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64714"
+}, {
+  "hash": "161b07b05830739e1fc1f16538cd5b081620131dd07f4103ad0dd02cd521298b",
+  "block_timestamp": "2026-09-02 10:06:10.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64874"
+}, {
+  "hash": "b5e1543aa9b8c15269c501a45ad107ae36993c4e7d880a48f85bfc5cc083d15f",
+  "block_timestamp": "2026-09-02 12:00:50.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64954"
+}, {
+  "hash": "70e02dd0d0faa86b03461be56405d6787d2c80f3969ec0e881a593863e3e10d8",
+  "block_timestamp": "2026-09-02 10:06:10.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64764"
+}, {
+  "hash": "8c54be421427e55e97efe18dace71a809e22d3b9c8c61771cf7e5ed9bfc63fb5",
+  "block_timestamp": "2026-09-02 08:57:36.000000 UTC",
+  "input_count": "604",
+  "output_count": "601",
+  "fee": "64774"
+}]
