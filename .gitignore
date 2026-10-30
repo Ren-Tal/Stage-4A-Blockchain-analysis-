@@ -4,6 +4,7 @@ ColdCard/blocos.tgz
 elliptic/*.csv
 Venom/data/
 Venom/venom-dataset-summary.csv
+ML and DL/data/
 *.pkl
 *.gexf
 *.tgz
